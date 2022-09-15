@@ -2,96 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Speed Monster</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1 class="title">BLOGS</h1>
+
+    <!-- blog title -->
+    <h1 class="title text-center py-5">BLOGS</h1>
+
+
     <Section class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-            <div class="col">
-                <div class="card border-dark my-3 bg-dark py-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-success">Local storage and Session storage</h4>
-                        <p class="card-text"><span class="h5 text-white fw-semibold">Local storage : </span>
-                            <br>
-                            1: We can access the data of local storage whenever we want.
-                            <br>
-                            2: The data which is added in local storage, that couldn't gonna remove until we remove
-                            those data manually.
-                        </p>
-                        <p class="card-text"><span class="h5 text-white fw-semibold">Session storage : </span>
-                            <br>
-                            1: We can access the data of session storage when we are in the tab.
-                            <br>
-                            2: The data which is added in the Session storage, that will remove when we close the
-                            browser or browser tab.
-                            <br>
-                        </p>
-                    </div>
-                </div>
+        <div class="card border-dark my-3 py-3">
+            <div class="card-body">
+                <!-- Local storage and Session storage -->
+                <h4 class="card-title text-success">Local storage and Session storage</h4>
+                <p class="card-text"><span class="h5 fw-semibold">Local storage : </span>
+                    <br>
+                    1: We can access the data of local storage whenever we want.
+                    <br>
+                    2: The data which is added in local storage, that couldn't gonna remove until we remove
+                    those data manually.
+                </p>
+                <p class="card-text"><span class="h5 fw-semibold">Session storage : </span>
+                    <br>
+                    1: We can access the data of session storage when we are in the tab.
+                    <br>
+                    2: The data which is added in the Session storage, that will remove when we close the
+                    browser or browser tab.
+                    <br>
+                </p>
             </div>
-            <div class="col">
-                <div class="card border-dark my-3 bg-dark py-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-success">Global scope and Block scope</h4>
-                        <p class="card-text"><span class="h5 text-white fw-semibold">Global scope : </span>
-                            <br>
-                            It can be accessed from anywhere in JavaScript program and from other scope's
-                        </p>
-                        <p class="card-text"><span class="h5 text-white fw-semibold"> Block scope : </span>
-                            <br>
-                            Are accessible within that particular condition or loop.This scope restricts the variable
-                            that is declared inside a specific block, from access by the outside of the block. The let &
-                            const keyword facilitates the variables to be block scoped.
-                        </p>
-                    </div>
-                </div>
+        </div>
+
+        <div class="card border-dark my-3 py-3">
+            <div class="card-body">
+                <!-- Global scope and Block scope -->
+                <h4 class="card-title text-success">Global scope and Block scope</h4>
+                <p class="card-text"><span class="h5 fw-semibold">Global scope : </span>
+                    <br>
+                    It can be accessed from anywhere in JavaScript program and from other scope's
+                </p>
+                <p class="card-text"><span class="h5 fw-semibold"> Block scope : </span>
+                    <br>
+                    Are accessible within that particular condition or loop.This scope restricts the variable
+                    that is declared inside a specific block, from access by the outside of the block. The let &
+                    const keyword facilitates the variables to be block scoped.
+                </p>
             </div>
-            <div class="col">
-                <div class="card border-dark my-3 bg-dark py-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-success">How many way we get undefined in javascript</h4>
-                        <p class="card-text"><span class="h5 text-white fw-semibold">Local storage : </span>
-                            <br>
-                            1: variable that is not intialize.
-                            <br>
-                            2: function with no return.
-                            <br>
-                            3: parameter that is not pass will be undifine.
-                            <br>
-                            4: if return has nothing on the right side that will be un difine.
-                            <br>
-                            5: property that dosen't exsit on an object.
-                            <br>
-                            6: accessing array elements outside of the index range.
-                            <br>
-                            7: deleting an element inside an arry.
-                            <br>
-                            8: set a value diretly to undifine.
-                        </p>
-                    </div>
-                </div>
+        </div>
+        </div>
+
+        <div class="card border-dark my-3 py-3">
+            <div class="card-body">
+                <!-- How many way we get undefined in javascript -->
+                <h4 class="card-title text-success">How many way we get undefined in javascript</h4>
+                <p class="card-text"><span class="h5 fw-semibold">Local storage : </span>
+                    <br>
+                    1: variable that is not intialize.
+                    <br>
+                    2: function with no return.
+                    <br>
+                    3: parameter that is not pass will be undifine.
+                    <br>
+                    4: if return has nothing on the right side that will be un difine.
+                    <br>
+                    5: property that dosen't exsit on an object.
+                    <br>
+                    6: accessing array elements outside of the index range.
+                    <br>
+                    7: deleting an element inside an arry.
+                    <br>
+                    8: set a value diretly to undifine.
+                </p>
             </div>
-            <div class="col">
-                <div class="card border-dark my-3 bg-dark py-3">
-                    <div class="card-body">
-                        <h4 class="card-title text-success">How does event loop works?</h4>
-                        <p class="card-text"><span class="h5 text-white fw-semibold">Event loop </span> take element
-                            from DOM and drop it in queue and processing stack's one by one and then prosess inside
-                            element of queue and finally give output. </p>
-                    </div>
-                </div>
+        </div>
+        </div>
+
+        <div class="card border-dark my-3 py-3">
+            <div class="card-body">
+                <!-- How does event loop works? -->
+                <h4 class="card-title text-success">How does event loop works?</h4>
+                <p class="card-text"><span class="h5 fw-semibold">Event loop </span> take element
+                    from DOM and drop it in queue and processing stack's one by one and then prosess inside
+                    element of queue and finally give output. </p>
             </div>
+        </div>
         </div>
     </Section>
 </body>
